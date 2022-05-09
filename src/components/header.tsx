@@ -1,11 +1,10 @@
-import logo from "../assets/images/logo.svg";
-import search from "../assets/images/search.svg";
+import logo from '../assets/images/logo.svg';
+import search from '../assets/images/search.svg';
 
 const Header = () => {
   return (
     <header className="grid grid-cols-3 items-center">
       <img src={logo} alt="logo" />
-
       <nav>
         <ul className="flex gap-8 ">
           <li className="flex items-center">
