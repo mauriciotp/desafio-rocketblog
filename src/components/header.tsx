@@ -6,11 +6,11 @@ const Header = () => {
     <header className="grid grid-cols-3 items-center">
       <img src={logo} alt="logo" />
       <nav>
-        <ul className="flex gap-8 ">
+        <ul className="flex gap-8 text-lg">
           <li className="flex items-center">
             <a
               href="#"
-              className="before:inline-block before:content-[''] before:w-px before:h-3 before:bg-green before:mr-0.5"
+              className="before:inline-block before:content-[''] before:w-0.5 before:h-4 before:bg-green before:mr-0.5"
             >
               Home
             </a>
